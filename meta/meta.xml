@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>nnu-patcher</name>
+  <coder>FIX94, ported by dibas</coder>
+  <version>0.1</version>
+  <release_date>20160429120000</release_date>
+  <short_description>Nintendo eShop Update Patcher</short_description>
+  <long_description>nnu-patcher allows you to start the Nintendo eShop on a lower firmware, if you have your firmware spoofed to the latest one available.
+  </long_description>
+</app>
