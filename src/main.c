@@ -46,9 +46,9 @@ int Menu_Main(void)
         return EXIT_RELAUNCH_ON_LOAD;
     }
 
-    if(strlen(cosAppXmlInfoStruct.rpx_name) <= 0){ // First boot back to SysMenu
-        SYSLaunchMenu();
-        return EXIT_RELAUNCH_ON_LOAD;
+    if(strlen(cosAppXmlInfoStruct.rpx_name) <= 0){ // First boot back to eshop
+    SYSSwitchToEShop();	
+    return EXIT_RELAUNCH_ON_LOAD;
     }
 
     RestoreInstructions();
